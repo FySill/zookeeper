@@ -1,4 +1,3 @@
-# zookeeper
 1.ZooKeeper常用客户端比较
 
 1. ZooKeeper常用客户端
@@ -7,7 +6,7 @@ zookeeper的常用客户端有3种，分别是： zookeeper原生的、A pache C
 
 zookeeper自带的客户端是官方提供的，比较底层、使用起来写代码麻烦、不够直接。
 A pache Curator是 A pache的开源项目，封装了zookeeper自带的客户端，使用相对简便，易于使用。
-zkclient是另一个开源的ZooKeeper客户端，其地址： https://github.com/adyliu/zkclient 生产环境不推荐使用。
+zkclient是另一个开源的ZooKeeper客户端，其地址： https://github.com/adyliu/zkclient 生产环境不推荐使用。 
 zookeeper原生客户端 Maven地址：
 
 <dependency>
